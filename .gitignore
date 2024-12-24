@@ -1,0 +1,39 @@
+# Ignore build output directories
+/bin/
+/obj/
+
+# Ignore user-specific files
+.vs/
+.vscode/
+.idea/
+
+# Ignore ASP.NET Core specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore dependency directories (for both .NET Core and ASP.NET Core)
+node_modules/
+npm-debug.log
+
+# Ignore local settings and secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.secrets.json
+
+# Ignore dotnet generated files
+.docker/
+.dockerignore
+docker-compose.override.yml
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore JetBrains Rider files
+.idea/
+
+# Ignore npm log files
+npm-debug.log
+
+# Ignore environment variable files (if you have a .env file or similar)
+.env
